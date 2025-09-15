@@ -1,0 +1,981 @@
+.border{
+    border: 3px greenyellow solid;
+}
+
+
+.text-d{
+    text-decoration: none;
+}
+.color1{
+    color: black;
+}
+ 
+.main-categori-wrap {
+    position: relative;
+    margin-right: 35px;
+}
+
+@media (min-width: 992px) {
+    .d-lg-block {
+        display: block !important;
+    }
+}
+.d-none {
+    display: none !important;
+}
+
+.list-style{
+    list-style-type: none;
+}
+
+.color2{
+    color: green;
+}
+
+.logo1{
+    position: relative;
+    z-index: 1;
+    scroll-snap-type: mandatory;
+}
+
+
+.text{
+    z-index: 3;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+
+}
+
+.text1{
+    font-size: larger;
+    z-index: 3;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    opacity: .5;
+    
+
+}
+
+.btn1{
+    background-color: green;
+    margin-top: 40px;
+    color: #fff;
+    text-decoration: none;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+
+
+btn1:hover{
+    background-color: orange;
+    color: #000;
+}
+
+
+.form-subcriber {
+    width: 25%;
+  
+    z-index: 3;
+    position: absolute;
+    top: 60%;
+    left: 15%; 
+}
+ .form-subcriber .inpt{
+    width: 100%;
+   border-radius: 5px;
+}
+
+.form-subcriber .btn{
+    background-color: green;
+    border-radius: .9 ;
+  
+}
+
+
+
+.text2{
+    z-index: 3;
+    position: absolute;
+   top: 120%;
+   left: 15%;
+}
+
+.text3{
+    z-index: 3;
+    position: absolute;
+   top: 140%;
+   left: 15%;
+   font-size: larger;
+}
+
+.form-subcriber1 {
+    width: 25%;
+    z-index: 3;
+    position: absolute;
+    top: 150%;
+    left: 15%; 
+}
+
+ .form-subcriber1 .inpt1{
+    width: 100%;
+   border-radius: 5px;
+}
+
+
+.ul{
+    display: block;
+}
+
+.ul li:hover {
+    transform: scale(1.2);
+    color: green;
+}
+.row{
+    display: flex;
+}
+
+
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.products{
+    display: flex;
+   
+    gap: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 80%;
+}
+
+.product{
+  
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.prodects1{
+    position: relative;  
+}
+
+.my-modle {
+    background-color: rgba(0,0,0,0.6); /* خلفية شفافة */
+    width: 70%;
+    height: 80%;
+    position: absolute;   /* يغطي الشاشة */
+    top: 170%;
+    left: 15%;
+    display: grid;     /* يحط المحتوى بالنص */
+ place-items:center;
+    align-items: center;
+    
+}
+
+.modal-content{
+    background-color: #fff;
+    display: grid;
+ place-items: center;
+    align-items: center;
+    width: 40%;
+    box-shadow: 7px 7px 5px black;
+}
+
+.modle-img {
+    position: absolute;
+    left: 20%;
+    bottom: 3%;
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+
+.left-btn, .right-btn, .close-btn {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.left-btn {
+    left: 5%;
+    top: 50%;
+}
+
+.right-btn {
+    right: 5%;
+    top: 50%;
+}
+
+.close-btn {
+    top: 5%;
+    right: 5%;
+}
+
+.btn{
+    cursor: pointer;
+    top: 10%;
+    left: 30%;
+   
+}
+
+.product:hover{
+    transform: scale(1.2);
+}
+
+
+.row img{
+    width: 90%;
+    position: relative;
+    z-index: 1;
+    opacity: .9;
+
+}
+
+.row .item{
+    position: absolute;
+    top: 108%;
+    left: 5%;
+    z-index: 3;
+}
+
+
+.row .item-btn{
+    padding: 5px;
+    background-color: green;
+    text-decoration: none;
+    list-style-type:none ;
+    color: white;
+
+}
+
+.row1 .item-btn{
+    padding: 5px;
+    background-color: green;
+    text-decoration: none;
+    list-style-type:none ;
+    color: white;
+
+}
+
+.row2 .item-btn{
+    padding: 5px;
+    background-color: green;
+    text-decoration: none;
+    list-style-type:none ;
+    color: white;
+
+}
+
+.row1 img{
+    width: 90%;
+    position: relative;
+    z-index: 1;
+    opacity: .9;
+
+}
+
+.row1 .item1{
+    position: absolute;
+    top: 108%;
+    left: 38%;
+    z-index: 3;
+}
+
+.row2 img{
+    width: 90%;
+    position: relative;
+    z-index: 1;
+    opacity: .9;
+
+}
+
+.row2 .item2{
+    position: absolute;
+    top: 108%;
+    left: 70%;
+    z-index: 3;
+}
+.pro :hover{
+    color: green;
+    transform: scale(1.2);
+}
+
+.product-rating {
+    height: 12px;
+    background-repeat: repeat-x;
+    background-image: url(acsseds/images/rating-stars.png);
+    background-position: 0 0;
+}
+
+ .product1-rating{
+     height: 12px;
+     width: 50px;
+    background-repeat: repeat-x;
+    background-image: url(acsseds/images/rating-stars.png);
+    background-position: 0 0;
+
+}
+
+.prodect{
+    width: 18%;
+    border: 2px solid rgb(156, 141, 115);
+    border-radius: 3px;
+}
+
+.class{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.banner-img{
+   
+   z-index: 1;
+    border-radius: 10px;
+    position: relative;
+    width: 80%;
+   height: 40%;
+}
+
+.shope{
+    width: 58% ;
+    padding: 5px;
+    margin-left: 10%;
+    background-color: green;
+    color: #fff;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.ol{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.shope:hover{
+    background-color: orangered;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    z-index: 3;
+    top: 300%;
+    left: 2%;
+}
+
+.prodect img{
+    width: 100%;
+}
+
+.old-price {
+    font-size: 14px;
+    color: #adadad;
+    margin: 0 0 0 7px;
+    text-decoration: line-through;
+}
+
+.add{
+    padding: 5px;
+    background-color: rgb(69, 187, 69);
+    color: #fff;
+    align-items: center;
+
+}
+
+.product1 .product1-rating{
+     height: 12px;
+     width: 55px;
+    background-repeat: repeat-x;
+    background-image: url(acsseds/images/rating-stars.png);
+    background-position: 0 0;
+
+}
+
+.product1{
+    width: 30%;
+    gap: 30px;
+    border: 2px solid bisque;
+}
+.product1 img{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product1 .btn1{
+    
+    padding: 10px;
+    width: 80%;
+    align-items: center;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+}
+
+ .btn1:hover{
+    background-color: orangered;
+}
+.scroll{
+    width: 110%;
+    overflow: hidden;
+    white-space:nowrap;
+    box-sizing: border-box;
+    background: #eee;
+
+}
+.product12{
+      display: inline-block;
+   animation:scrollloop 10s linear infinite ; 
+   overflow-x: auto;
+   
+}
+
+@keyframes scrollloop {
+    0%{
+        transform: translateX(0%);
+
+    }
+    100%{
+        transform: translateX(0%);
+    }
+
+    
+  
+    
+}
+.img-logo{
+    width: 20%;
+    height: 40%;
+    z-index: -1;
+    position: relative;
+}
+ 
+.span1{
+   width: 20%;
+    color: green;
+    position: absolute;
+    z-index: 3;
+    top: 400%;
+    left: 13%;
+    
+}
+
+.span{
+    background-color: #fff;
+    padding: 15px;
+}
+
+.span:hover{
+ transform: scale(1.1);
+}
+
+
+.product2-rating{
+         height: 12px;
+     width: 55px;
+    background-repeat: repeat-x;
+    background-image: url(acsseds/images/rating-stars.png);
+    background-position: 0 0;
+}
+
+.h4class:hover{
+    color: rgb(185, 96, 64);
+}
+.span2{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+
+
+.ditels{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 415%;
+    left: 13%;
+    
+}
+
+.add{
+    padding:20px;
+    background-color: #cee868;
+    color: #fff;
+}
+
+.add:hover{
+    background-color: green;
+}
+
+
+.span3{
+   background-color: #fff;
+    padding: 15px;  
+}
+
+.span4{
+  
+    color: green;
+    position: absolute;
+    z-index: 3;
+    top: 400%;
+    left: 55%;
+    
+}
+
+.ditels1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 415%;
+    left: 55%;
+    
+}
+
+.ditels2{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 455%;
+    left: 80%;
+    
+}
+
+.span3:hover{
+ transform: scale(1.1);
+}
+
+.TopSelling{
+    margin-top: 10%;
+}
+
+.TopSelling .hr{
+    color: green;
+}
+.product3-rating{
+      height: 12px;
+     width: 55px;
+    background-repeat: repeat-x;
+    background-image: url(acsseds/images/rating-stars.png);
+    background-position: 0 0;
+}
+
+.logo-2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 10px;
+}
+
+.logo-2 h3 :hover{
+    color: green;
+   transform: scale(1.2);
+}
+
+.allproduct{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.logo-img1{
+    margin-top: 10%;
+    position: relative;
+    z-index: 1;
+      border-radius: 10px;
+    margin-left: 3%;
+    margin-right: 10%;
+    
+}
+
+.logo-img2{
+    position: absolute;
+    left: 65%;
+    z-index: 3;
+    top:610%
+}
+
+.logo-text1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    z-index: 3;
+    top: 300%;
+    left: 10%;
+}
+
+.logo-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    z-index: 3;
+    top: 580%;
+    left: 10%;
+}
+
+
+.logo-btn{
+    padding: 7px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo-btn:hover{
+    background-color: orange;
+}
+
+.text-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Company{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10%;
+}
+
+.Company ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.Company :hover ul{
+    color: green;
+}
+
+.Account{
+  display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10%;   
+}
+.footer-list{
+      display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;  
+}
+
+.Corporate{
+ display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10%;    
+}
+
+.Popular{
+   display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10%;   
+}
+
+.app{
+    display: flex;
+    
+
+}
+
+.app1 :hover{
+transform: scale(1.1);
+}
+
+.app2 :hover{
+transform: scale(1.1);
+}
+
+.InstallApp{
+
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 5%;
+}
+
+.cart{
+    padding: 15px;
+    background-color: green;
+    color: #fff;
+}
+
+.view{
+    padding: 15px;
+    background-color: green;
+    color: #fff;
+}
+
+
+
+
+.Treak{
+    padding: 20px;
+  
+    color:black;
+
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 1px 1px wheat;  
+}
+
+
+
+
+    
+.logout{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 10%;
+
+}
+.logout :hover .Treak{
+    background-color: green;
+    color: #fff;
+}
+
+.card {
+    position: relative;
+    display: flex
+;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #ececec;
+    border-radius: 0.25rem;
+}
+
+
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+}
+
+.submit{
+    background-color: #888585;
+    color: #fff;
+
+}
+
+.card-body{
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.submit :hover{
+    background-color: green;
+}
+
+.nav-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    list-style-type: none;
+
+    margin-top: 10%;
+}
+
+    .nav-item{
+     border: 1px solid black;
+     width: 20%;
+     height: 20%;
+     border-radius: 10px;
+   
+    }
+
+
+    .btn3 {
+        background-color: greenyellow;
+
+    }
+
+    .btn3 :hover{
+        background-color: green;
+    }
+
+    
+
+.nav-item :hover{
+    background-color: green;
+    color: #fff;
+}
+
+
+
+.cabbage1{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.shop{
+    position: relative;
+    width: auto;
+    height: 40%;
+    border-radius: 10px;
+}
+
+.cabbage{
+ position: absolute;
+    top: 67%;
+    left: 55%;
+}
+
+.shop-text{
+    position: absolute;
+    top: 60%;
+    left: 7%;
+}
+
+.img-logo7{
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+
+.span6{
+   
+    background-color: #fff;
+   padding: 20px;
+   top: 240%;
+}
+
+.span6:hover{
+    transform: scale(1.1);
+}
+
+.span8{
+    position: absolute;
+    top: 255%;
+    left: 55%;
+}
+.ditels4{
+    background-color: #fff;
+
+}
+
+.img-logo5{
+    position: relative;
+}
+
+
+
+
+
+.span11{
+position: absolute;
+top: 255%;
+left: 15%;
+}
+.span0{
+    background-color: #fff;
+    top: 255%;
+    padding: 20px;
+}
+
+
+.span0:hover{
+    transform: scale(1.1);
+}
+
+.ditels3{
+    background-color: #fff;
+    
+}
+
+.cabbage1:hover{
+    transform: scale(1.1);
+}
+
+
+.logo-img3{
+    margin-top: 10%;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-right: 10%;
+}
+
+.logo-img4{
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    left: 65%;
+    z-index: 3;
+    top:310%
+}
+.logo-{
+  position: absolute;
+    left: 15%;
+    z-index: 3;
+    top:325%   
+}
+
+/*-----------------*/
+
+/* الشكل العادي للـ navbar */
+#navbare {
+  position: fixed;     /* يخليه ثابت فوق */
+  top:  0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: transparent; /* شفاف قبل ما تنزل */
+  transition: background 0.3s, padding 0.3s;
+    z-index: 2;
+}
+
+/* لما ينزل المستخدم */
+#navbare.scrolled {
+  background: #333;   /* خلفية غامقة */
+  padding: 10px 20px; /* يقل البادينغ */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3); /* ظل خفيف */
+}
+

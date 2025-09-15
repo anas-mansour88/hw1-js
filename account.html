@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+   <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+
+     <nav class="navbare" id="navbare">
+
+  <div class="d-flex justify-content-between" style="border: 1px solid black ; ;"> 
+
+    <div class="d-flex  logo mx-5 my-3 ">
+        <img src="acsseds/images/logo.svg" width="70%">
+     </div>
+<form action="#" data-select2-id="8" style="border: 2px solid greenyellow; height: 40px;width: 420px;" class="mt-5">
+                                <select class="select-active select2-hidden-accessible" data-select2-id="1" tabindex="-1" aria-hidden="true" style="border: none;">
+                                    <option data-select2-id="3">All Categories</option>
+                                    <option data-select2-id="17">Milks and Dairies</option>
+                                    <option data-select2-id="18">Wines &amp; Alcohol</option>
+                                    <option data-select2-id="19">Clothing &amp; Beauty</option>
+                                    <option data-select2-id="20">Pet Foods &amp; Toy</option>
+                                    <option data-select2-id="21">Fast food</option>
+                                    <option data-select2-id="22">Baking material</option>
+                                    <option data-select2-id="23">Vegetables</option>
+                                    <option data-select2-id="24">Fresh Seafood</option>
+                                    <option data-select2-id="25">Noodles &amp; Rice</option>
+                                    <option data-select2-id="26">Ice cream</option>
+                                </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" data-select2-id="2" style="width: 140px; border: none;"><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                <input type="text" placeholder="Search for items..." style="border: none;" class="ms-5">
+                            </form>
+
+    <div class="d-flex gap-3 mx-5 my-5">
+        <a href="" class="text-d color1">
+        <div>
+            <img src="acsseds/images/icon-compare.svg" alt="">
+            <span>compare</span>
+        </div>
+    </a>
+    <a href="" class="text-d color1">
+        <div>
+            <img src="acsseds/images/icon-heart.svg" alt="">
+            <span>heart</span>
+        </div>
+    </a>
+
+    <a  class="btn " data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" class="off1 text-d color1">
+        <div>
+            <img src="acsseds/images/icon-cart.svg" alt="">
+            <span>cart</span>
+        </div>
+    </a>
+
+<a  data-bs-toggle="offcanvas" href="#offcanvasExample"  aria-controls="offcanvasExample" class="text-d color1">
+ 
+        <div>
+            <img src="acsseds/images/icon-user.svg">
+               
+            <span>Account</span>
+        </div>
+    </a>
+    </div>
+    </div>
+    </nav>
+
+
+
+    <section >
+
+       
+         <ul class="nav-1 nav-pills" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link " data-bs-toggle="pill" href="#home">Dashboard</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#menu1">Order</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#menu2">Track Your Order</a></li>
+      <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#menu3">My Address</a></li>
+      <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#menu4">Account Details </a></li>
+      <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#menu5">Logout</a></li>
+   
+
+   
+
+ </section>
+
+   <div class="tab-content" >
+    <div id="home" class="container tab-pane active"><br>
+      <h3>Hello Rosie!</h3>
+  <p>
+   From your account dashboard. you can easily check &amp; view your <a href="#" class="text-d color2">recent orders</a>,<br>
+    manage your <a href="#" class="text-d color2">shipping and billing addresses</a> and <a href="#" class="text-d color2">edit your password and account details.</a>
+ </p>
+    </div>
+
+    <div id="menu1" class="container tab-pane fade"><br>
+      <h3>Your Orders</h3>
+        <div class="card-body">
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Order</th>
+                                                                <th>Date</th>
+                                                                <th>Status</th>
+                                                                <th>Total</th>
+                                                                <th>Actions</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>#1357</td>
+                                                                <td>March 45, 2020</td>
+                                                                <td>Processing</td>
+                                                                <td>$125.00 for 2 item</td>
+                                                                <td><a href="#" class="btn-small d-block text-d color2" >View</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>#2468</td>
+                                                                <td>June 29, 2020</td>
+                                                                <td>Completed</td>
+                                                                <td>$364.00 for 5 item</td>
+                                                                <td><a href="#" class="btn-small d-block text-d color2" >View</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>#2366</td>
+                                                                <td>August 02, 2020</td>
+                                                                <td>Completed</td>
+                                                                <td>$280.00 for 3 item</td>
+                                                                <td><a href="#" class="btn-small text-d color2 d-block" >View</a></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+    </div>
+    <div id="menu2" class="container tab-pane fade"><br>
+
+
+      <h3>Orders tracking</h3>
+     <div class="card-body contact-from-area">
+        <p>To track your order please enter your OrderID in the box below and press "Track" button.<br>
+             This was given to you on your receipt and in the confirmation email you should have received.</p>
+             <div class="row">
+             <div class="col-lg-8">
+             <form class="contact-form-style mt-30 mb-50" action="#" method="post">
+                 <div class="input-style mb-20 ">
+                 <label>Order ID</label>
+                <input name="order-id" placeholder="Found in your order confirmation email" type="text" style="width: 40%;">
+                </div>
+                <div class="input-style mb-20">
+                 <label>Billing email</label>
+                <input name="billing-email" placeholder="Email you used during checkout" type="email" style="width: 40%;" >
+                </div>
+                        <button class="submit submit-auto-width" type="submit" style="width: 20%; margin-top: 10%;">Track</button>
+                </form>
+             </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="menu3" class="container tab-pane fade"><br>
+        <div class="d-flex gap-5">
+      <div class="card mb-3 mb-lg-0">
+                                                    <div class="card-header">
+                                                        <h3 class="mb-0">Billing Address</h3>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <address>
+                                                            3522 Interstate<br>
+                                                            75 Business Spur,<br>
+                                                            Sault Ste. <br>Marie, MI 49783
+                                                        </address>
+                                                        <p>New York</p>
+                                                        <a href="#" class="btn-small text-d color2">Edit</a>
+                                                    </div>
+         </div>
+      
+         <div class="card">
+                                                    <div class="card-header">
+                                                        <h5 class="mb-0">Shipping Address</h5>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <address>
+                                                            4299 Express Lane<br>
+                                                            Sarasota, <br>FL 34249 USA <br>Phone: 1.941.227.4444
+                                                        </address>
+                                                        <p>Sarasota</p>
+                                                        <a href="#" class="btn-small text-d color2">Edit</a>
+                                                    </div>
+                                                </div>
+                                            
+                                            </div>
+    </div>
+    <div id="menu4" class="container tab-pane fade"><br>
+      <h3>Account Details</h3>
+     <div class="card-body">
+                                                <p>Already have an account? <a href="page-login.html" class="text-d color2">Log in instead!</a></p>
+                                                <form method="post" name="enq">
+                                                    <div class="row">
+                                                        <div class="form-group col-md-6">
+                                                            <label>First Name <span class="required">*</span></label>
+                                                            <input required="" class="form-control" name="name" type="text">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label>Last Name <span class="required">*</span></label>
+                                                            <input required="" class="form-control" name="phone">
+                                                        </div>
+                                                        <div class="form-group col-md-12">
+                                                            <label>Display Name <span class="required">*</span></label>
+                                                            <input required="" class="form-control" name="dname" type="text">
+                                                        </div>
+                                                        <div class="form-group col-md-12">
+                                                            <label>Email Address <span class="required">*</span></label>
+                                                            <input required="" class="form-control" name="email" type="email">
+                                                        </div>
+                                                        <div class="form-group col-md-12">
+                                                            <label>Current Password <span class="required">*</span></label>
+                                                            <input required="" class="form-control" name="password" type="password">
+                                                        </div>
+                                                        <div class="form-group col-md-12">
+                                                            <label>New Password <span class="required">*</span></label>
+                                                            <input required="" class="form-control" name="npassword" type="password">
+                                                        </div>
+                                                        <div class="form-group col-md-12">
+                                                            <label>Confirm Password <span class="required">*</span></label>
+                                                            <input required="" class="form-control" name="cpassword" type="password">
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <button type="submit" class="btn btn-fill-out submit font-weight-bold" name="submit" value="Submit" style="background-color: green; ">Save Change</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+    </div>
+
+    <div id="menu5" class="container tab-pane fade"><br>
+      <div class="page-content pt-150 pb-150">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-10 col-md-12 m-auto">
+                        <div class="row">
+                            <div class="col-lg-6 pr-30 d-none d-lg-block">
+                                <img class="border-radius-15" src="acsseds/images/login-1.png" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-8">
+                                <div class="login_wrap widget-taber-content background-white">
+                                    <div class="padding_eight_all bg-white">
+                                        <div class="heading_s1">
+                                            <h1 class="mb-5">Login</h1>
+                                            <p class="mb-30">Don't have an account? <a href="page-register.html" class="text-d color2">Create here</a></p>
+                                        </div>
+                                        <form method="post">
+                                            <div class="form-group">
+                                                <input type="text" required="" name="email" placeholder="Username or Email *">
+                                            </div>
+                                            <div class="form-group">
+                                                <input required="" type="password" name="password" placeholder="Your password *">
+                                            </div>
+                                            <div class="login_footer form-group">
+                                                <div class="chek-form">
+                                                    <input type="text" required="" name="email" placeholder="Security code *">
+                                                </div>
+                                                <span class="security-code" >
+                                                    <b class="text-new">8</b>
+                                                    <b class="text-hot">6</b>
+                                                    <b class="text-sale">7</b>
+                                                    <b class="text-best">5</b>
+                                                </span>
+                                            </div>
+                                            <div class="login_footer form-group mb-50">
+                                                <div class="chek-form">
+                                                    <div class="custome-checkbox">
+                                                        <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox1" value="">
+                                                        <label class="form-check-label" for="exampleCheckbox1"><span>Remember me</span></label>
+                                                    </div>
+                                                </div>
+                                                <a class="text-muted text-d color2" href="#" >Forgot password?</a>
+                                            </div>
+                                            <div class="form-group">
+                                                <button type="submit" class="btn3 btn-heading btn-block hover-up" name="login">Log in</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+     
+
+
+
+     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Account</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+     
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+      Account
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="account.html">My Account</a></li>
+        <li><a class="dropdown-item" href="account.html">Order Tracking</a></li>
+        <li><a class="dropdown-item" href="account.html">My Voucher</a></li>
+         <li><a class="dropdown-item" href="account.html">My Wishlist </a></li>
+        <li><a class="dropdown-item" href="account.html">Setting</a></li>
+        <li><a class="dropdown-item" href="account.html">Sign out</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="staticBackdropLabel">Cart</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <hr>
+    <div class="d-flex justify-content-between">
+     <a href="" class="cart text-d">chekeout</a>
+     <a href="" class="view text-d"  >view cart</a>
+    </div>
+
+  </div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
